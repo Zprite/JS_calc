@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Js pracc </title>
+<script type="text/javascript" src="JS_Pracc.js"></script>
+</head>
+
+<body>
+<h1 id="h1"> Velkommen til kalkulator! </h1>
+<input type="number" id="num1"></input>
+<button id="btn_+" onclick="change_operator('+'); change_buttonColor('btn_+', '#68f2f9');">+</button>
+<button id="btn_-" onclick="change_operator('-');change_buttonColor('btn_-','#68f2f9');">-</button>
+<button id="btn_*" onclick="change_operator('*');change_buttonColor('btn_*', '#68f2f9');">*</button>
+<button id="btn_/" onclick="change_operator('/');change_buttonColor('btn_/', '#68f2f9');">/</button>
+<input type="number" id="num2"></input>
+<button id="btn_=" onclick="sum();">=</button>
+<h2>SUM:</h2>
+<p id="sum"></p>
+</body>
+</html>
